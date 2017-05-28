@@ -36,53 +36,58 @@
 <div class="row">
 <div class="jumbotron">
 <div class="container text-center">
-<h1>Crystals Collector!</h1>
+<h1>Crystal Collector!</h1>
 
 <!-- Rows inside Jumbotron -->
 <div class="row">
 
 <!-- First Column -->
 <div class="col-lg-6">	
-<div class="panel panel-default">
-<div class="panel-body text-left">
-<!-- Instructions -->
-	<h2>Instructions</h2>
-	<br>
-	<ul>
-	<li>You will be given a random number at the start of the game.</li>
-	<br>
-	<li>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</li>
-	<br>
-	<ol>
-	<li>1.  You win the game by matching your total score to the random number.</li>
-	<br>
-	<li>2.  You lose the game if your total score goes above the random number.</li>
-	<br>
-	</ol>
-	<li>The value of each crystal is hidden from you until you click on it.</li>
-	<br>
-	<li>Each time when the game starts, the game will change the values of each crystal.</li>
-	</ul>
+	<div class="panel panel-default">
+	<div class="panel-body text-left">
+	<!-- Instructions -->
+		<h2>Instructions</h2>
+		<br>
+		<ul>
+		<li>You will be given a random number at the start of the game.</li>
+		<br>
+		<li>There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</li>
+		<br>
+		<ol>
+		<li>1.  You win the game by matching your total score to the random number.</li>
+		<br>
+		<li>2.  You lose the game if your total score goes above the random number.</li>
+		<br>
+		</ol>
+		<li>The value of each crystal is hidden from you until you click on it.</li>
+		<br>
+		<li>Each time when the game starts, the game will change the values of each crystal.</li>
+		</ul>
+		<br>
+		<br>
 
+	</div>
+	</div>
 </div>
-</div>
-</div> <!-- End First Column -->
+<!-- End First Column -->
 
 <!-- Second Column -->
-
-
 <div class="col-lg-6">	
 	<div class="panel panel-default">
 	<div class="panel-body text-left">
 		<h2>Crystal Score</h2>
 		<br>
+		<br>
 	<!-- First Row in right panel -->
 	<div class="row">
-			<!-- Random Number -->
+		<!-- Random Number -->
 		<div class="col-lg-6">	
 			<div class="panel panel-default">
 			<div class="panel-body">
-				<h3>Random Number:</h3>
+				<!-- ID:  randomNumber -->
+				<br>
+				<h3>Random Number:  <span id="randomNumber">##</span></h3>
+				<br>
 			</div>
 			</div>
 		</div>
@@ -90,7 +95,11 @@
 		<div class="col-lg-6">	
 			<div class="panel panel-default">
 			<div class="panel-body">
-				<h3>Score Tally:</h3>
+				<!-- ID:  wins -->
+				<h3>Wins:  <span id="wins">##</span></h3>
+				<br>
+				<!-- ID:  losses -->
+				<h3>Losses:  <span id="losses">##</span></h3>
 			</div>
 			</div>
 		</div>
@@ -100,26 +109,35 @@
 		<div class="row">
 			<!-- Four Crystal Buttons -->
 			<!-- First button -->
+			<br>
 			<div class="col-sm-3">
 				<button class="btn btn-default">
+				Opal
+				<br>
 				<img src="assets/images/opal.png" width="75" height="75"/>
 				</button>
 			</div>
 			<!-- Second Button -->
 			<div class="col-sm-3">
 				<button class="btn btn-default">
+				Amber
+				<br>
 				<img src="assets/images/amber.png" width="75" height="75"/>
 				</button>
 			</div>
 			<!-- Third Button -->
 			<div class="col-sm-3">
 				<button class="btn btn-default">
+				Quartz
+				<br>
 				<img src="assets/images/quartz_crystal.png" width="75" height="75"/>
 				</button>
 			</div>
 			<!-- Fourth Button -->
 			<div class="col-sm-3">
 				<button class="btn btn-default">
+				Zircon
+				<br>
 				<img src="assets/images/zircon.png" width="75" height="75"/>
 				</button>
 			</div>

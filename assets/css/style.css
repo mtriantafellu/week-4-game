@@ -5,22 +5,28 @@ h1 {
 h2 {
 	font-size: 200%;
 }
+h3 {
+	font-size: 125%;
+}
 
 ul {
 	list-style-type: disc;
 	padding: 10px;
+	font-size: 125%;
 }
 
 .jumbotron h1 {	
 	color: #FFFFFF;
-	margin: 75px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .jumbotron {
 	background-size: cover;
 	border-radius: 10px;
 	padding: 50px;
-	margin: 75px;
+	margin-left: 75px;
+	margin-right: 75px;
 	background: transparent;
 
 }
