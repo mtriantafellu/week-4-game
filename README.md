@@ -8,3 +8,5 @@ Using bootstrap for primary layout
 Two background images so far
 
 Re-did layout to hopefully make it clearer
+
+Layout - Done, now for jQuery
