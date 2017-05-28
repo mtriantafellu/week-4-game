@@ -1,0 +1,14 @@
+h1 {
+	text-decoration-color: darkgreen;
+}
+
+ul {
+	list-style-type: disc;
+	padding: 10px;
+}
+
+.jumbotron {
+	background-image: url("../images/jumbotron_background.jpg");
+	background-size: cover;
+	border-radius: 10px;
+}
