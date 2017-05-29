@@ -5,6 +5,7 @@
 
 <title>Crystals Collector Triantafellu</title>
 
+	<!-- Bootstrap -->
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<!-- Optional theme -->
@@ -20,13 +21,13 @@
 
 	<!-- link to jQuery -->
 	<script
-  	src="https://code.jquery.com/jquery-3.2.1.min.js"
+ 	src="https://code.jquery.com/jquery-3.2.1.min.js"
   	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  	crossorigin="anonymous">
-  	</script>
-	
+  	crossorigin="anonymous"></script>
+
 	<!-- Link to Javascript -->
-	<link rel="stylesheet" type="text/javascript" href="assets/javascript/game.js">
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
 
 </head>
 
@@ -65,6 +66,7 @@
 		</ul>
 		<br>
 		<br>
+		<br>
 
 	</div>
 	</div>
@@ -95,12 +97,10 @@
 		<div class="col-lg-6">	
 			<div class="panel panel-default">
 			<div class="panel-body">
-				<!-- ID:  wins -->
-				<h3>Wins:  <span id="wins">##</span></h3>
-				<br>
-				<!-- ID:  losses -->
-				<h3>Losses:  <span id="losses">##</span></h3>
-			</div>
+					<br>
+					<h3>Your Total Score is:  <span id="totalScore">##</span></h3>
+					<br>
+					</div>
 			</div>
 		</div>
 
@@ -108,34 +108,34 @@
 		<!-- Second Row in right panel -->
 		<div class="row">
 			<!-- Four Crystal Buttons -->
-			<!-- First button -->
+			<!-- Opal button -->
 			<br>
 			<div class="col-sm-3">
-				<button class="btn btn-default">
+				<button id="opalbtn" class="btn btn-default">
 				Opal
 				<br>
 				<img src="assets/images/opal.png" width="75" height="75"/>
 				</button>
 			</div>
-			<!-- Second Button -->
+			<!-- Amber Button -->
 			<div class="col-sm-3">
-				<button class="btn btn-default">
+				<button id="amberbtn" class="btn btn-default">
 				Amber
 				<br>
 				<img src="assets/images/amber.png" width="75" height="75"/>
 				</button>
 			</div>
-			<!-- Third Button -->
+			<!-- Quartz Button -->
 			<div class="col-sm-3">
-				<button class="btn btn-default">
+				<button id="quartzbtn" class="btn btn-default">
 				Quartz
 				<br>
 				<img src="assets/images/quartz_crystal.png" width="75" height="75"/>
 				</button>
 			</div>
-			<!-- Fourth Button -->
+			<!-- Zircon Button -->
 			<div class="col-sm-3">
-				<button class="btn btn-default">
+				<button id="zirconbtn" class="btn btn-default">
 				Zircon
 				<br>
 				<img src="assets/images/zircon.png" width="75" height="75"/>
@@ -143,17 +143,23 @@
 			</div>
 			
 			<div class="row">
-				<div class="col-sm-2">
+
+				<div class="col-sm-3">
 				</div>
-				<div class="col-sm-8">
+				<div class="col-sm-6">
+				<br>
+				<br>
+					<div class="panel panel-default">
 					<div class="panel-body text-left">
-					<br>
-					<br>
-					<h2>Your Total Score is:</h2>
-					<br>
+						<!-- ID:  wins -->
+						<h3>Wins:  <span id="wins">##</span></h3>
+						<br>
+						<!-- ID:  losses -->
+						<h3>Losses:  <span id="losses">##</span></h3>
+					</div>
+					</div>
 				</div>
-				</div>
-				<div class="col-sm-2">
+				<div class="col-sm-3">
 				</div>
 			</div>
 
@@ -169,6 +175,7 @@
 </div> <!-- End Jumbotron -->
 </div> <!-- End Middle Col -->
 </div> <!-- End Overall Row -->
+
 
 </body>
 </html>
