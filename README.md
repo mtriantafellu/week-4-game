@@ -10,3 +10,15 @@ Two background images so far
 Re-did layout to hopefully make it clearer
 
 Layout - Done, now for jQuery
+
+# Requirements
+
+# Purpose:
+
+# Usage:
+            
+# Future Development:
+
+# Author:
+- Matt Triantafellu
+- UCF Coding BootCamp Summer 2017
