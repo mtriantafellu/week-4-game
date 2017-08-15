@@ -12,6 +12,7 @@ Re-did layout to hopefully make it clearer
 Layout - Done, now for jQuery
 
 # Requirements
+As outlined in homework
 
 # Purpose:
 
