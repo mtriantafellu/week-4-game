@@ -16,12 +16,9 @@ As outlined in homework
 
 # Purpose:
 
-
 # Usage:
-    
-    
-# Future Development:
 
+# Future Development:
 
 # Author:
 - Matt Triantafellu
